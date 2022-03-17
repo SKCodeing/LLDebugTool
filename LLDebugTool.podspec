@@ -112,7 +112,7 @@ Pod::Spec.new do |s|
     ss.public_header_files      = "LLDebugTool/Core/Storage/**/*.h"
     ss.source_files             = "LLDebugTool/Core/Storage/**/*.{h,m}"
     ss.dependency                 "LLDebugTool/Core"
-    ss.dependency                 "FMDB", "~> 2.0"
+    # ss.dependency                 "FMDB", "~> 2.0"
   end
   
   # Primary
